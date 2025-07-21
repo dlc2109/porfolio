@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="/stlyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+            <div>
+                <a href="#" class="navbar__logo">Daniel López</a>
+                <h4>Desarrollador Web y Diseñador UX/UI</h4>
+            </div>
+            <div class="navbar__menu" id="navbar-menu">
+                <a href="#sobre-mi" class="navbar__link">Sobre mí</a>
+                <a href="#skills" class="navbar__link">Skills</a>
+                <a href="#servicios" class="navbar__link">Servicios</a>
+                <a href="#proyectos" class="navbar__link">Proyectos</a>
+                <a href="#contacto" class="navbar__link">Contacto</a>
+            </div>
+
+            <button class="navbar__toggle" id="navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__container">
+            <div class="hero__image-container">
+                <img src="/assets/foto cv.png" alt="Mi imagen" class="hero__image">
+            </div>
+            <div class="hero__tittle-container">
+                <p class="hero__tittle">Hola, soy <span class="hero__name">Daniel López</span></p>
+            </div>
+            <div class="hero__content">
+                <p class="hero__description">Desarrollador web y diseñador UX/UI con pasión por crear experiencias
+                    digitales excepcionales.</p>
+                <a href="#contacto" class="hero__button">Contáctame</a>
+                <!-- <a href="#contacto" class="hero__button-link">Contáctame</a> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí Section -->
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="sobre-mi__container">
+            <h2 class="sobre-mi__title">Sobre Mí</h2>
+            <p class="sobre-mi__text">
+                <span class="sobre-mi-spam"> Diseñador UX/UI + Desarrollador Web en constante crecimiento. </span> <br>
+
+                Aunque mi experiencia aún es corta, mi curiosidad y dedicación no tienen límites. Me apasiona crear
+                diseños intuitivos y desarrollar webs funcionales, siempre aprendiendo nuevas herramientas y técnicas
+                para mejorar.
+
+                Soy responsable, comprometido y me encanta colaborar en proyectos desafiantes. La tecnología es mi
+                motor, y cada día busco sumar habilidades para ofrecer soluciones creativas y centradas en el usuario.
+
+                <span class="cursiva__spam"> "Creo en el proceso, la constancia y los detalles que marcan la
+                    diferencia."</span> <br>
+
+                ¿Por qué trabajar conmigo? <br>
+                <div class="sobreMi__list-container">
+                    <div class="list__content">
+                        <img src="/assets/check-square-svgrepo-com.svg" alt="check logo">
+                <p class="list__text"> Versatilidad: Diseño y desarrollo en un mismo perfil.</p>
+                </div>
+                <div class="list__content">
+                 <img src="/assets/check-square-svgrepo-com.svg" alt="check logo">
+                <p class="list__text"> Actualizado: Siempre aprendiendo (cursos, prácticas, proyectos personales).</p>
+                </div>
+                <div class="list__content">
+                         <img src="/assets/check-square-svgrepo-com.svg" alt="check logo">
+               <p class="list__text"> Enfoque claro: Mejorar la experiencia del usuario es mi prioridad.</p>
+                </div>
+                 </div>
+                  
+           
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="skills__container">
+            <h2 class="skills__title">Skills</h2>
+            <div class="skills__grid">
+                <div class="skills__item">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3 class="skills__name">HTML5</h3>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-css3 " alt='skill cc3'> </i>
+                    <h3 class="skills__name">CC3</h3>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h3 class="skills__name">Bootstrap</h3>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-sass "></i>
+                    <h3 class="skills__name">Sass</h3>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-js "></i>
+                    <h3 class="skills__name">JavaScript</h3>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-react "></i>
+                    <h3 class="skills__name">React</h3>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-git "></i>
+                    <h3 class="skills__name">Git</h3>
+                </div>
+                <div class="skills__item">
+                    <i class="fa-brands fa-figma "></i>
+                    <h3 class="skills__name">Figma</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section class="servicios" id="servicios">
+        <div class="servicios__container">
+            <h2 class="servicios__title">Servicios</h2>
+            <div class="servicios__cards">
+                <div class="servicios__card">
+                    <div class="servicios__card-image-container">
+                        <img src="/assets/uxui.webp" alt="Diseño UX/UI" class="servicios__card-image">
+                    </div>
+                    <h3 class="servicios__card-title">Diseño UX/UI</h3>
+
+                    <p class="servicios__card-text">Creo interfaces intuitivas y atractivas que mejoran la experiencia
+                        del usuario y aumentan la conversión.</p>
+                </div>
+                <div class="servicios__card">
+                    <div class="servicios__card-image-container">
+                        <img src="/assets/desarrollo.webp" alt="Desarrollo Web" class="servicios__card-image">
+                    </div>
+                    <h3 class="servicios__card-title">Desarrollo Web</h3>
+                    <p class="servicios__card-text">Desarrollo sitios web responsivos, rápidos y optimizados para
+                        motores de búsqueda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section class="proyectos" id="proyectos">
+        <div class="proyectos__container">
+            <h2 class="proyectos__title">Proyectos</h2>
+            <div class="proyectos__cards">
+                <div class="proyectos__card">
+                    <div class="proyectos__card-image-container">
+                        <img src="https://www.behance.net/gallery/215589105/Diseno-UX-UI-Case-study/modules/1227299225"
+                            alt="Proyecto 1" class="proyectos__card-image">
+                    </div>
+                    <div class="proyectos__card-content">
+                        <h3 class="proyectos__card-title">Proyectos</h3>
+                        <p class="proyectos__card-text">Creo experiencias digitales intuitivas y atractivas, desde
+                            wireframes hasta prototipos interactivos. Cada diseño no solo es visualmente impactante,
+                            sino que también resuelve problemas reales, garantizando una navegación fluida y
+                            satisfactoria para el usuario.</p>
+
+                        <div class="proyectos__card-buttons">
+                            <a href="#" class="proyectos__card-button proyectos__card-button--behance">
+                                <i class="fab fa-behance"></i> Behance
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="proyectos__card">
+                    <div class="proyectos__card-image-container">
+                        <img src="/assets/windaddict.png" alt="Proyecto 2" class="proyectos__card-image">
+                    </div>
+                    <div class="proyectos__card-content">
+                        <h3 class="proyectos__card-title">Desarrollo web</h3>
+                        <p class="proyectos__card-text">Transformo ideas en sitios web rápidos, responsivos y con código
+                            limpio. Ya sea un portfolio elegante, un e-commerce o una aplicación dinámica, desarrollo
+                            soluciones técnicas que se adaptan a las necesidades del proyecto y ofrecen una experiencia
+                            de usuario excepcional.</p>
+
+                        <div class="proyectos__card-buttons">
+
+                            <a href="#" class="proyectos__card-button proyectos__card-button--github">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="contacto" id="contacto">
+        <div class="contacto__container">
+            <h2 class="contacto__title">Contacto</h2>
+            <form class="contacto__form">
+                <div class="contacto__form-group">
+                    <label for="nombre" class="contacto__label">Nombre</label>
+                    <input type="text" id="nombre" class="contacto__input" required>
+                </div>
+                <div class="contacto__form-group">
+                    <label for="email" class="contacto__label">Email</label>
+                    <input type="email" id="email" class="contacto__input" required>
+                </div>
+                <div class="contacto__form-group">
+                    <label for="mensaje" class="contacto__label">Mensaje</label>
+                    <textarea id="mensaje" class="contacto__textarea" required></textarea>
+                </div>
+                <button type="submit" class="contacto__button">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">© 2023 Mi Portfolio. Todos los derechos reservados.</p>
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-behance"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
